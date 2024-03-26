@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+\\ essa parte é quando o usuario da o numero
+int main(){
+	
+	int n;
+	
+	scanf("%d",&n);
+\\ aqui se abre o loop que ele vai ficar preso nele até n=1, ( != é diferente de)
+while(n != 1){
+		\\ esse %2 vai resultar no resto de uma divisao por 2
+		if(n % 2 == 0 ){
+		
+		n/=2;
+		
+		printf("%d\n",n);
+		
+		}else if(n % 2 != 0){
+		
+		n*=3;
+		
+		n++;
+		
+		printf("%d\n",n);
+		
+		} else
+	
+	
+		printf("%d\n",n);
+		
+}
+
+system("pause");
+}
